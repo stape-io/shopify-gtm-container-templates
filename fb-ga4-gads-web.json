@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2024-07-19 10:27:53",
+    "exportTime": "2024-07-22 17:12:22",
     "containerVersion": {
         "path": "accounts/6004967354/containers/187414573/versions/0",
         "accountId": "6004967354",
@@ -2456,21 +2456,6 @@
                                         "value": "{{dlv - ecommerce.items}}"
                                     }
                                 ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "ecomm_pagetype"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "product"
-                                    }
-                                ]
                             }
                         ]
                     },
@@ -2490,7 +2475,7 @@
                         "value": "{{ga4 - shared_event_settings}}"
                     }
                 ],
-                "fingerprint": "1718207452471",
+                "fingerprint": "1721666267573",
                 "firingTriggerId": [
                     "76"
                 ],
@@ -4442,6 +4427,133 @@
                 "consentSettings": {
                     "consentStatus": "NOT_SET"
                 }
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "187414573",
+                "tagId": "129",
+                "name": "[Stape] GA4 - view_item_list",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "value"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{dlv - ecommerce.value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "currency"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{dlv - ecommerce.currency}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "items"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{dlv - ecommerce.items}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "item_list_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{dlv - ecommerce.item_list_name}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "item_list_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{dlv - ecommerce.collection_id}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "view_item_list"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{const - ga4 measurement id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{ga4 - shared_event_settings}}"
+                    }
+                ],
+                "fingerprint": "1721666953549",
+                "firingTriggerId": [
+                    "128"
+                ],
+                "parentFolderId": "7",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
             }
         ],
         "trigger": [
@@ -4634,6 +4746,32 @@
                     }
                 ],
                 "fingerprint": "1718196916398",
+                "parentFolderId": "14"
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "187414573",
+                "triggerId": "128",
+                "name": "ce - view_collection_stape",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "view_collection_stape"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1721666296199",
                 "parentFolderId": "14"
             }
         ],
@@ -5491,6 +5629,60 @@
                 "fingerprint": "1718196158247",
                 "parentFolderId": "4",
                 "formatValue": {}
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "187414573",
+                "variableId": "130",
+                "name": "dlv - ecommerce.item_list_name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.item_list_name"
+                    }
+                ],
+                "fingerprint": "1721666730593",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "187414573",
+                "variableId": "131",
+                "name": "dlv - ecommerce.collection_id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.collection_id"
+                    }
+                ],
+                "fingerprint": "1721666933660",
+                "parentFolderId": "4",
+                "formatValue": {}
             }
         ],
         "folder": [
@@ -5810,7 +6002,7 @@
                 "name": "On-Screen Duration"
             }
         ],
-        "fingerprint": "1721384873301",
+        "fingerprint": "1721668342388",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/187414573/versions/0?apiLink=version",
         "customTemplate": [
             {
