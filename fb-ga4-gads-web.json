@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2024-07-22 17:12:22",
+    "exportTime": "2024-07-23 10:33:28",
     "containerVersion": {
         "path": "accounts/6004967354/containers/187414573/versions/0",
         "accountId": "6004967354",
@@ -1630,7 +1630,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_common_cookie",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "type": "LIST",
@@ -2055,7 +2055,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1721384789101",
+                "fingerprint": "1721730463749",
                 "firingTriggerId": [
                     "58"
                 ],
@@ -3288,7 +3288,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_common_cookie",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "type": "LIST",
@@ -3588,7 +3588,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1721384780301",
+                "fingerprint": "1721730449773",
                 "firingTriggerId": [
                     "107"
                 ],
@@ -3946,7 +3946,7 @@
                     {
                         "type": "BOOLEAN",
                         "key": "add_common_cookie",
-                        "value": "false"
+                        "value": "true"
                     },
                     {
                         "type": "LIST",
@@ -4221,7 +4221,7 @@
                         ]
                     }
                 ],
-                "fingerprint": "1721384771913",
+                "fingerprint": "1721730455679",
                 "firingTriggerId": [
                     "120"
                 ],
@@ -6002,7 +6002,7 @@
                 "name": "On-Screen Duration"
             }
         ],
-        "fingerprint": "1721668342388",
+        "fingerprint": "1721730808258",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/187414573/versions/0?apiLink=version",
         "customTemplate": [
             {
