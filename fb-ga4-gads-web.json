@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2024-07-23 10:33:28",
+    "exportTime": "2024-07-23 10:45:22",
     "containerVersion": {
         "path": "accounts/6004967354/containers/187414573/versions/0",
         "accountId": "6004967354",
@@ -5690,8 +5690,8 @@
                 "accountId": "6004967354",
                 "containerId": "187414573",
                 "folderId": "4",
-                "name": "DataLayer",
-                "fingerprint": "1718191899803"
+                "name": "[Stape] Data Layer",
+                "fingerprint": "1721731374602"
             },
             {
                 "accountId": "6004967354",
@@ -6002,7 +6002,7 @@
                 "name": "On-Screen Duration"
             }
         ],
-        "fingerprint": "1721730808258",
+        "fingerprint": "1721731522416",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/187414573/versions/0?apiLink=version",
         "customTemplate": [
             {
