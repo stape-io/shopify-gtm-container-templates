@@ -1,22 +1,22 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2024-07-02 10:06:27",
+    "exportTime": "2025-05-20 16:36:53",
     "containerVersion": {
-        "path": "accounts/6004967354/containers/189034092/versions/0",
+        "path": "accounts/6004967354/containers/220516409/versions/0",
         "accountId": "6004967354",
-        "containerId": "189034092",
+        "containerId": "220516409",
         "containerVersionId": "0",
         "container": {
-            "path": "accounts/6004967354/containers/189034092",
+            "path": "accounts/6004967354/containers/220516409",
             "accountId": "6004967354",
-            "containerId": "189034092",
-            "name": "[ADS WEBINAR] Shopify Server",
-            "publicId": "GTM-5ND62GP8",
+            "containerId": "220516409",
+            "name": "[MASTER TEMPLATE] Shopify Server (only google)",
+            "publicId": "GTM-N5N9N88K",
             "usageContext": [
                 "SERVER"
             ],
-            "fingerprint": "1719899322474",
-            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004967354/containers/189034092/workspaces?apiLink=container",
+            "fingerprint": "1747758422419",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004967354/containers/220516409/workspaces?apiLink=container",
             "features": {
                 "supportUserPermissions": true,
                 "supportEnvironments": true,
@@ -34,167 +34,14 @@
                 "supportTransformations": true
             },
             "tagIds": [
-                "GTM-5ND62GP8"
+                "GTM-N5N9N88K"
             ]
         },
         "tag": [
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "tagId": "36",
-                "name": "[Stape] ADS - BeginCheckout",
-                "type": "sgtmadsct",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "productReportingDataSource",
-                        "value": "EVENT"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableNewCustomerReporting",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableConversionLinker",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableProductReporting",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "newCustomerDataSource",
-                        "value": "EVENT"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionId",
-                        "value": "{{const - google ads conversion id}}"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionLabel",
-                        "value": "{{const - google ads [begin_checkout] conversion label}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "rdp",
-                        "value": "false"
-                    }
-                ],
-                "fingerprint": "1719899348442",
-                "firingTriggerId": [
-                    "35"
-                ],
-                "parentFolderId": "33",
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_SET"
-                }
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "tagId": "51",
-                "name": "[Stape] ADS - AddToCart",
-                "type": "sgtmadsct",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "productReportingDataSource",
-                        "value": "EVENT"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableNewCustomerReporting",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableConversionLinker",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableProductReporting",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "newCustomerDataSource",
-                        "value": "EVENT"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionId",
-                        "value": "{{const - google ads conversion id}}"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionLabel",
-                        "value": "{{const - google ads [add_to_cart] conversion label}}"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "rdp",
-                        "value": "false"
-                    }
-                ],
-                "fingerprint": "1719899348519",
-                "firingTriggerId": [
-                    "49"
-                ],
-                "parentFolderId": "33",
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_SET"
-                }
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "tagId": "52",
-                "name": "Conversion Linker",
-                "type": "sgtmadscl",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableLinkerParams",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableCookieOverrides",
-                        "value": "false"
-                    }
-                ],
-                "fingerprint": "1719899348520",
-                "firingTriggerId": [
-                    "41"
-                ],
-                "parentFolderId": "33",
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_SET"
-                }
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "tagId": "53",
+                "containerId": "220516409",
+                "tagId": "29",
                 "name": "[Stape] ADS - Remarketing",
                 "type": "sgtmadsremarket",
                 "parameter": [
@@ -239,11 +86,11 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1719899533584",
+                "fingerprint": "1747758560163",
                 "firingTriggerId": [
-                    "41"
+                    "26"
                 ],
-                "parentFolderId": "33",
+                "parentFolderId": "27",
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
                     "type": "MAP"
@@ -254,8 +101,8 @@
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "tagId": "55",
+                "containerId": "220516409",
+                "tagId": "31",
                 "name": "[Stape] ADS - Purchase",
                 "type": "sgtmadsct",
                 "parameter": [
@@ -300,11 +147,11 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1719899348521",
+                "fingerprint": "1747758560163",
                 "firingTriggerId": [
-                    "45"
+                    "30"
                 ],
-                "parentFolderId": "33",
+                "parentFolderId": "27",
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
                     "type": "MAP"
@@ -315,8 +162,130 @@
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "tagId": "61",
+                "containerId": "220516409",
+                "tagId": "34",
+                "name": "[Stape] ADS - AddToCart",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{const - google ads conversion id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{const - google ads [add_to_cart] conversion label}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1747758560164",
+                "firingTriggerId": [
+                    "32"
+                ],
+                "parentFolderId": "27",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "tagId": "37",
+                "name": "[Stape] ADS - BeginCheckout",
+                "type": "sgtmadsct",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "productReportingDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "newCustomerDataSource",
+                        "value": "EVENT"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{const - google ads conversion id}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "{{const - google ads [begin_checkout] conversion label}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1747758560164",
+                "firingTriggerId": [
+                    "36"
+                ],
+                "parentFolderId": "27",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "tagId": "39",
                 "name": "[Stape] GA4 - Base",
                 "type": "sgtmgaaw",
                 "parameter": [
@@ -336,11 +305,42 @@
                         "value": "all"
                     }
                 ],
-                "fingerprint": "1719899348525",
+                "fingerprint": "1747758560164",
                 "firingTriggerId": [
-                    "41"
+                    "26"
                 ],
-                "parentFolderId": "60",
+                "parentFolderId": "38",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "tagId": "40",
+                "name": "Conversion Linker",
+                "type": "sgtmadscl",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableLinkerParams",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1747758560164",
+                "firingTriggerId": [
+                    "26"
+                ],
+                "parentFolderId": "27",
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
                     "type": "MAP"
@@ -353,51 +353,8 @@
         "trigger": [
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "triggerId": "35",
-                "name": "ga4 - begin_checkout",
-                "type": "CUSTOM_EVENT",
-                "customEventFilter": [
-                    {
-                        "type": "EQUALS",
-                        "parameter": [
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg0",
-                                "value": "{{_event}}"
-                            },
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg1",
-                                "value": "begin_checkout"
-                            }
-                        ]
-                    }
-                ],
-                "filter": [
-                    {
-                        "type": "CONTAINS",
-                        "parameter": [
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg0",
-                                "value": "{{Client Name}}"
-                            },
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg1",
-                                "value": "GA4"
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1719899348441",
-                "parentFolderId": "6"
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "triggerId": "41",
+                "containerId": "220516409",
+                "triggerId": "26",
                 "name": "clientName - GA4",
                 "type": "ALWAYS",
                 "filter": [
@@ -417,13 +374,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1719899348512",
-                "parentFolderId": "6"
+                "fingerprint": "1747758560163",
+                "parentFolderId": "25"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "triggerId": "45",
+                "containerId": "220516409",
+                "triggerId": "30",
                 "name": "ga4 - purchase",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -460,13 +417,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1719899348516",
-                "parentFolderId": "6"
+                "fingerprint": "1747758560163",
+                "parentFolderId": "25"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "triggerId": "49",
+                "containerId": "220516409",
+                "triggerId": "32",
                 "name": "ga4 - add_to_cart",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -503,13 +460,56 @@
                         ]
                     }
                 ],
-                "fingerprint": "1719899348518",
-                "parentFolderId": "6"
+                "fingerprint": "1747758560163",
+                "parentFolderId": "25"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "triggerId": "63",
+                "containerId": "220516409",
+                "triggerId": "36",
+                "name": "ga4 - begin_checkout",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "begin_checkout"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Client Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "GA4"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1747758560164",
+                "parentFolderId": "25"
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "triggerId": "41",
                 "name": "ga4 - page_view",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -546,66 +546,15 @@
                         ]
                     }
                 ],
-                "fingerprint": "1719899348526",
-                "parentFolderId": "6"
+                "fingerprint": "1747758560164",
+                "parentFolderId": "25"
             }
         ],
         "variable": [
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "variableId": "32",
-                "name": "const - google ads conversion id",
-                "type": "c",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "value",
-                        "value": "PUT_YOUR_VALUE_HERE"
-                    }
-                ],
-                "fingerprint": "1719899348440",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "variableId": "34",
-                "name": "const - google ads [begin_checkout] conversion label",
-                "type": "c",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "value",
-                        "value": "PUT_YOUR_VALUE_HERE"
-                    }
-                ],
-                "fingerprint": "1719899348441",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "variableId": "50",
-                "name": "const - google ads [add_to_cart] conversion label",
-                "type": "c",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "value",
-                        "value": "PUT_YOUR_VALUE_HERE"
-                    }
-                ],
-                "fingerprint": "1719899348519",
-                "parentFolderId": "3",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "variableId": "54",
+                "containerId": "220516409",
+                "variableId": "24",
                 "name": "const - google ads [purchase] conversion label",
                 "type": "c",
                 "parameter": [
@@ -615,109 +564,107 @@
                         "value": "PUT_YOUR_VALUE_HERE"
                     }
                 ],
-                "fingerprint": "1719899348521",
-                "parentFolderId": "3",
+                "fingerprint": "1747758560163",
+                "parentFolderId": "23",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "variableId": "28",
+                "name": "const - google ads conversion id",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "PUT_YOUR_VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1747758560163",
+                "parentFolderId": "23",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "variableId": "33",
+                "name": "const - google ads [add_to_cart] conversion label",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "PUT_YOUR_VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1747758560164",
+                "parentFolderId": "23",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "variableId": "35",
+                "name": "const - google ads [begin_checkout] conversion label",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "PUT_YOUR_VALUE_HERE"
+                    }
+                ],
+                "fingerprint": "1747758560164",
+                "parentFolderId": "23",
                 "formatValue": {}
             }
         ],
         "folder": [
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "folderId": "3",
+                "containerId": "220516409",
+                "folderId": "23",
                 "name": "[Stape] _Settings",
-                "fingerprint": "1719899348423"
+                "fingerprint": "1747758560162"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "folderId": "6",
+                "containerId": "220516409",
+                "folderId": "25",
                 "name": "[Stape] Triggers",
-                "fingerprint": "1719899348426"
+                "fingerprint": "1747758560163"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "folderId": "33",
+                "containerId": "220516409",
+                "folderId": "27",
                 "name": "[Stape] Google Ads",
-                "fingerprint": "1719899348440"
+                "fingerprint": "1747758560163"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
-                "folderId": "60",
+                "containerId": "220516409",
+                "folderId": "38",
                 "name": "[Stape] GA4",
-                "fingerprint": "1719899348525"
+                "fingerprint": "1747758560164"
             }
         ],
         "builtInVariable": [
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
+                "containerId": "220516409",
                 "type": "EVENT_NAME",
                 "name": "Event Name"
             },
             {
                 "accountId": "6004967354",
-                "containerId": "189034092",
+                "containerId": "220516409",
                 "type": "CLIENT_NAME",
                 "name": "Client Name"
             }
         ],
-        "fingerprint": "1719914787499",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/189034092/versions/0?apiLink=version",
-        "client": [
-            {
-                "accountId": "6004967354",
-                "containerId": "189034092",
-                "clientId": "64",
-                "name": "GA4",
-                "type": "gaaw_client",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieDomain",
-                        "value": "auto"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieMaxAgeInSec",
-                        "value": "63072000"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateGtagSupport",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateDefaultPaths",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookiePath",
-                        "value": "/"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "migrateFromJsClientId",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieManagement",
-                        "value": "server"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieName",
-                        "value": "FPID"
-                    }
-                ],
-                "fingerprint": "1719899348527",
-                "parentFolderId": "60"
-            }
-        ]
+        "fingerprint": "1747759013962",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/220516409/versions/0?apiLink=version"
     }
 }
