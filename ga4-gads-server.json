@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2025-05-20 16:36:53",
+    "exportTime": "2025-08-18 14:34:34",
     "containerVersion": {
         "path": "accounts/6004967354/containers/220516409/versions/0",
         "accountId": "6004967354",
@@ -664,7 +664,54 @@
                 "name": "Client Name"
             }
         ],
-        "fingerprint": "1747759013962",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/220516409/versions/0?apiLink=version"
+        "fingerprint": "1755527674286",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004967354/containers/220516409/versions/0?apiLink=version",
+        "client": [
+            {
+                "accountId": "6004967354",
+                "containerId": "220516409",
+                "clientId": "42",
+                "name": "GA4",
+                "type": "gaaw_client",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieMaxAgeInSec",
+                        "value": "63072000"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateDefaultPaths",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookiePath",
+                        "value": "/"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "migrateFromJsClientId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieManagement",
+                        "value": "server"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieName",
+                        "value": "FPID"
+                    }
+                ],
+                "fingerprint": "1755510371147"
+            }
+        ]
     }
 }
