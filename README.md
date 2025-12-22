@@ -1,4 +1,6 @@
-# GTM Templates for Shopify
+# [Deprecated] GTM Templates for Shopify
+
+Container templates are deprecated and moved into [Setup Assistant](https://stape.io/gtm-set-up-assistant) service
 
 ## Open Source
 
